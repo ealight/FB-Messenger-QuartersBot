@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<button-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/buttonKeyboard.xsd"
+                 controller="Notifications">
+
+    <button-link payload="Enable">Включить</button-link>
+    <button-link payload="Disable">Выключить</button-link>
+
+</button-keyboard>

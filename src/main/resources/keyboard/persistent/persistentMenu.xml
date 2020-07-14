@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<persistent-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../xsd/persistentKeyboard.xsd"
+                 controller="Menu">
+
+    <persistent-category title="Мой профиль">
+        <persistent-link payload="ReservedHouses">Мои брони</persistent-link>
+        <persistent-link payload="Magazine">Мой журнал</persistent-link>
+        <persistent-link payload="Notifications">Уведомления</persistent-link>
+    </persistent-category>
+
+    <persistent-category title="Выбрать дом">
+        <persistent-link payload="AllHouses">Посмотреть все дома</persistent-link>
+        <persistent-link payload="Filters">К фильтрам</persistent-link>
+    </persistent-category>
+
+    <persistent-independent-link payload="Start">На главную</persistent-independent-link>
+
+</persistent-keyboard>

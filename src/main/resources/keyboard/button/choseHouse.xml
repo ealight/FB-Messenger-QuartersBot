@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<button-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../xsd/buttonKeyboard.xsd"
+                 controller="Menu">
+
+    <button-link payload="AllHouses">Посмотреть все дома</button-link>
+    <button-link payload="Filters">К фильтрам ➡</button-link>
+    <button-link payload="Start">⬅ Назад в меню</button-link>
+
+</button-keyboard>

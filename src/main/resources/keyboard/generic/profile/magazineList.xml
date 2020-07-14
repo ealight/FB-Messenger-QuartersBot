@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<generic-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="../../../xsd/genericKeyboard.xsd"
+                  controller="GenericMenuRepository">
+
+    <generic-db-item entity="House" maxItemsOnPage="3" itemResponseMethod="house"
+                     repository="HouseRepository" repoMethod="getHousesListByFacebookId"
+                     methodForTitle="getName" methodForSubtitle="getDescription"
+                     methodForImage="getImages" methodForPayload="getId"
+                     imageEntity="HouseImageData" methodForUrlImage="getUrl">
+
+        <generic-button payload="MoreDetails">Подробнее</generic-button>
+        <generic-button payload="Delete">Удалить из журнала</generic-button>
+
+    </generic-db-item>
+
+    <generic-quick-reply>
+        <quick-reply-button payload="Previous">Назад</quick-reply-button>
+        <quick-reply-button payload="Page" pageable="true">Страница</quick-reply-button>
+        <quick-reply-button payload="Next">Вперед</quick-reply-button>
+    </generic-quick-reply>
+
+
+</generic-keyboard>

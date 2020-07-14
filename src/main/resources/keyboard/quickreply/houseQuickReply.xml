@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<quick-reply-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="../../xsd/quickreplyKeyboard.xsd"
+                  controller="GenericMenu">
+
+        <quick-reply-button payload="MorePhoto">Больше фото</quick-reply-button>
+        <quick-reply-button payload="Details">Детальнее</quick-reply-button>
+        <quick-reply-button payload="OwnerRequirement">Требования владельца</quick-reply-button>
+        <quick-reply-button payload="AdditionalService">Дополнительные услуги</quick-reply-button>
+
+</quick-reply-keyboard>

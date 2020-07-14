@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<button-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../xsd/buttonKeyboard.xsd"
+                 controller="Menu">
+
+    <button-link payload="ReservedHouses">Мои брони</button-link>
+    <button-link payload="Magazine">Мой журнал</button-link>
+    <button-link payload="Notifications">Уведомления</button-link>
+
+</button-keyboard>

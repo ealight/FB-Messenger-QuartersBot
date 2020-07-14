@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<button-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/buttonKeyboard.xsd"
+                 controller="Menu">
+
+    <button-link payload="ShowHouses">Показать дома ➡</button-link>
+    <button-link payload="House">⬅ К выбору дома</button-link>
+
+</button-keyboard>
